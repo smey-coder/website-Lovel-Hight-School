@@ -3,53 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>វិទ្យាល័យល្វា-Lovea Hight School</title>
+    <title>Lovea High School</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <table border="0" cellpandding="5" align="center" width="80%">
-        <tr>
-            <td colspan="4">
-                <img src="image/logo_school.jpg" alt="No Image" style="width: 50px; padding-left: 80px;">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="4"​ style="font-size: 16px; font-family: 'Khmer M1';">វិទ្យាល័យ ល្វា​ - Lovel Hight School</td>
-        </tr>
-        <tr>
-            <td colspan="4">
-                <p class="detail">ព័ត៌មានទូទៅ (General Information)</p>
-                <p class="detail01">វិទ្យាល័យល្វា គឺជាគ្រឹះស្ថានសិក្សាសាធារណៈដ៏សំខាន់មួយ ដែលស្ថិតនៅក្នុង ឃុំល្វា ស្រុកបវេល ខេត្តបាត់ដំបង (តំបន់តាហ៊ី)។ សាលានេះផ្ដល់ការអប់រំចាប់ពីថ្នាក់ទី ៧ ដល់ទី ១២ ដល់សិស្សានុសិស្សនៅក្នុងមូលដ្ឋាន និងតំបន់ជុំវិញ។ ក្នុងរយៈពេលប៉ុន្មានឆ្នាំចុងក្រោយនេះ វិទ្យាល័យល្វាមានការរីកចម្រើនយ៉ាងខ្លាំងលើផ្នែកហេដ្ឋារចនាសម្ព័ន្ធ រួមមានការសាងសង់អគារសិក្សាថ្មីៗ និងការបង្កើតបន្ទប់ពិសោធន៍កុំព្យូទ័រ ក្រោមការគាំទ្រពីអង្គការ Child's Dream ដើម្បីពង្រឹងចំណេះដឹងផ្នែកបច្ចេកវិទ្យា។ ក្រៅពីកម្មវិធីសិក្សាតាមក្រសួង សាលាក៏មានកិច្ចសហការជាមួយអង្គការ BEC ដើម្បីបញ្ចូលការអប់រំសីលធម៌ និងវិន័យដល់សិស្សានុសិស្ស ក្នុងគោលបំណងបង្កើតបរិយាកាសសិក្សាប្រកបដោយគុណភាព និងគុណធម៌។</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="image/detail.jpg" alt="No Image">
-            </td>
-            <td>
-                <img src="image/detail01.jpg" alt="No Image">
-            </td>
-            <td>
-                <img src="image/detail01.jpg" alt="No Image">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" style="padding: 20px;">
-                <p>អបអរសាទរវិទ្យាល័យ «ល្វា»ក្បួនដង្ហែរពានរង្វាន់ សាលាស្អាត សាលាគំរូ និងនាយកសាលាល្អ🫶🏆</p>
-                <img src="image/detail01.jpg" alt="No Image" style="height: 100%;">
-            </td>
-            <td colspan="2">
-                <iframe 
-                    src="https://www.google.com/maps?q=13.3505627,102.9104758&output=embed"
-                    width="100%" 
-                    height="590" 
-                    style="border:2px solid black;">
-                </iframe>
-            </td>
-        </tr>
-        <tr>
-            <td class="foodter" colspan="4" style="text-align: center;">© 2026 Lovea High School</td>
-        </tr>
-    </table>
+
+<!-- Dark Mode -->
+<button id="darkToggle">🌙</button>
+
+<!-- Header -->
+<header class="header">
+    <img src="image/logo_school.jpg" class="logo">
+    <h1>វិទ្យាល័យល្វា - Lovea High School</h1>
+</header>
+
+<!-- Navigation -->
+<nav class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- Hero / Slider -->
+<section class="slider">
+    <img src="image/detail.jpg" class="slide active">
+    <img src="image/detail01.jpg" class="slide">
+    <img src="image/detail01.jpg" class="slide">
+</section>
+
+<!-- Content -->
+<section class="content">
+    <h2>ព័ត៌មានទូទៅ (General Information)</h2>
+    <p>
+        វិទ្យាល័យល្វា គឺជាគ្រឹះស្ថានសិក្សាសាធារណៈដ៏សំខាន់មួយ...
+    </p>
+</section>
+
+<!-- Gallery -->
+<section class="gallery">
+    <img src="image/detail.jpg">
+    <img src="image/detail01.jpg">
+    <img src="image/detail01.jpg">
+</section>
+
+<!-- Info + Map -->
+<section class="info-map">
+    <div class="info">
+        <p>អបអរសាទរវិទ្យាល័យ «ល្វា» 🏆</p>
+        <img src="image/detail01.jpg">
+    </div>
+
+    <div class="map">
+        <iframe 
+            src="https://www.google.com/maps?q=13.3505627,102.9104758&output=embed"
+            width="100%" 
+            height="100%" 
+            style="border:0;">
+        </iframe>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2026 Lovea High School
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>
