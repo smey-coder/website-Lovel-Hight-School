@@ -14,13 +14,13 @@ body.dark {
 /* Header */
 .header {
     text-align: center;
-    background: #86bbd5;
-    color: white;
+    background: white;
+    color: rgb(34, 15, 238);
     padding: 20px;
 }
 
 .logo {
-    width: 60px;
+    width: 90px;
 }
 
 /* Nav */
@@ -121,4 +121,13 @@ footer {
     right: 10px;
     padding: 10px;
     cursor: pointer;
+}
+button {
+    border: 0px;
+    background-color: rgb(94, 154, 195);
+    border-radius: 8px;
+    width: 50px;
+}
+button:hover{
+    background-color: antiquewhite;
 }
